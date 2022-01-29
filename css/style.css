@@ -88,6 +88,16 @@ a {
   height: 300px; 
 }
 
+/* ABOUT - ACCORDION */
+.accordion {
+  margin: 2rem; 
+}
+
+.accordion-heading {
+  text-align: center;
+  padding-bottom: 2rem; 
+}
+
 /* MAIN FOOTER */
 .main-footer {
   background-color: #F0F1F5;
