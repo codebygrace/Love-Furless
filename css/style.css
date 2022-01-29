@@ -8,7 +8,6 @@ body {
 }
 
 a {
-  text-decoration: none;
   color: #545454; 
 }
   a:hover {
@@ -39,9 +38,6 @@ a {
 .site-specs {
   padding: 2rem 4rem; 
 }
-  .site-specs a {
-    text-decoration: underline; 
-  }
 
 .specs-wrapper {
   display: flex;
@@ -88,6 +84,23 @@ a {
   height: 300px; 
 }
 
+/* ABOUT - ABOUT AND MISSION */
+.about {
+  text-align: center;
+  padding: 2rem;
+  background: url(../assets/about-bg.png) no-repeat;
+  background-position: 50% 25%;
+}
+
+.about-wrapper {
+  background-color: rgba(255, 255, 255, .75);
+}
+
+.about-heading, 
+.about-text {
+  padding: 1rem;
+}
+
 /* ABOUT - ACCORDION */
 .accordion {
   margin: 2rem; 
@@ -106,6 +119,9 @@ a {
   padding: 1rem 0;
   position: relative; 
 }
+  .main-footer a {
+    text-decoration: none;
+  }
 
 .footer-items {
   display: flex;
