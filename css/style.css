@@ -18,3 +18,16 @@ a {
   text-align: center;
   display: block;
 }
+
+.featured {
+  margin: 3rem auto;
+  text-align: center;
+  padding: 2rem 0;
+  font-weight: 600; 
+}
+
+.featured-heading,
+.featured-item,
+.featured-item img {
+  padding-bottom: 2rem; 
+}
