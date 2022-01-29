@@ -31,3 +31,28 @@ a {
 .featured-item img {
   padding-bottom: 2rem; 
 }
+
+.site-specs {
+  padding: 2rem 4rem; 
+}
+  .site-specs a {
+    text-decoration: underline; 
+  }
+
+.specs-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 5rem; 
+}
+  .specs-wrapper img {
+    padding-right: 2rem;
+    width: 225px; 
+  }
+
+.flex2 {
+  flex-direction: row-reverse; 
+}
+  .flex2 img {
+    padding-left: 2rem; 
+  }
