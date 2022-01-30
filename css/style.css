@@ -101,15 +101,22 @@ a {
   padding: 1rem;
 }
 
-/* ABOUT - ACCORDION */
+/* ACCORDION */
 .accordion {
   margin: 2rem; 
+  text-align: center;
 }
 
-.accordion-heading {
-  text-align: center;
+.accordion-item {
+  text-align: left;
+}
+
+.accordion-heading,
+.accordion img,
+.accordion-text {
   padding-bottom: 2rem; 
 }
+
 
 /* MAIN FOOTER */
 .main-footer {
