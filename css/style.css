@@ -101,6 +101,11 @@ a {
   padding: 1rem;
 }
 
+/* CARE - HEADING */
+.care-heading {
+  text-align: center;
+}
+
 /* ACCORDION */
 .accordion {
   margin: 2rem; 
@@ -116,7 +121,6 @@ a {
 .accordion-text {
   padding-bottom: 2rem; 
 }
-
 
 /* MAIN FOOTER */
 .main-footer {
