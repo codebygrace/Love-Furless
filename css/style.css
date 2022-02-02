@@ -59,12 +59,17 @@ a {
 
 /* INDEX - CONTACT AND HOURS */
 .contact-hours {
+  background: url(../assets/contact-bg.png) no-repeat;
+  background-size: 100%; 
+  padding: 2rem;
+  margin-bottom: 5rem; 
+}
+
+.contact-wrapper {
   display: flex;
   align-items: center;
-  background: url(../assets/contact-us-bg.png) no-repeat;
-  background-size: 100% auto;
-  padding: 5rem 0;
-  margin-bottom: 5rem; 
+  padding: 2rem;
+  background-color:rgba(255, 255, 255, .75);
 }
 
 .contact-description {
@@ -125,7 +130,6 @@ a {
 /* CONTACT */
 form {
   background: url(../assets/contact-form-bg.png) no-repeat;
-  background-size: 100% auto;
   padding: 1rem;
 }
   form div {
@@ -146,7 +150,6 @@ form {
 
 form div input, 
 form div textarea {
-  outline: none;
   border-radius: 10px;
   border: 1px solid #000000;
   padding: 5px;
