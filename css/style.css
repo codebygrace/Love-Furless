@@ -83,12 +83,6 @@ a {
   padding-right: 2rem; 
 }
 
-/* MODAL */
-.modal-image {
-  width: 100%;
-  height: 300px; 
-}
-
 /* ABOUT - ABOUT AND MISSION */
 .about {
   text-align: center;
@@ -125,6 +119,41 @@ a {
 .accordion img,
 .accordion-text {
   padding-bottom: 2rem; 
+}
+
+/* HEALTH AND TEMPERMENT */
+.intro {
+  text-align: center;
+  padding: 1rem;
+  background-position: 50% 50%;
+}
+
+.health-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.health {
+  margin: 1rem;
+  padding: 2rem;
+  width: 45%;
+  border: 1px solid transparent;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .50);
+}
+  .health img {
+    width: 100%;
+    padding-bottom: 1rem;
+  }
+
+.breed-heading {
+  padding-bottom: 1rem;
+  text-align: center;
+}
+
+.health-heading {
+  padding-bottom: 1rem;
 }
 
 /* CONTACT */
@@ -169,6 +198,12 @@ form div textarea {
   background-color: #FFFFFF;
   box-shadow: 0 0 5px rgba(0, 0, 0, .50);
   margin: 0 auto;
+}
+
+/* MODAL */
+.modal-image {
+  width: 100%;
+  height: 300px; 
 }
 
 /* MAIN FOOTER */
