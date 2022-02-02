@@ -37,28 +37,36 @@
     </nav>
     
     <form action="https://formspree.io/f/mdobegen" method="post">
-      <div class="name">
-        <label for="firstName">First Name:</label> 
-        <input type="text" name="firstName" id="firstName" placeholder="First Name" required>
-        
-        <label for="lastName">Last Name:</label>
-        <input type="text" name="lastName" id="lastName" placeholder="Last Name">
-      </div> 
-      <div class="info">
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" placeholder="hairless@lovefurless.com" required>
-        <label for="phone">Phone Number:</label>
-        <input type="tel" name="phone" id="phone" placeholder="123-456-7890">          
-      </div>  
-      <div class="subject">
-        <label for="subject">Subject:</label>
-        <input type="text" name="subject" id="subject" placeholder="Subject">
+      <div class="form-wrapper row">
+        <h1 class="contact-form-hd">Contact Form</h1>
+        <div class="col-sm-6">
+          <label for="firstName" class="form-label">First Name:</label>
+          <input type="text" class="form-control" id="firstName" required>
+        </div>
+        <div class="col-sm-6">
+          <label for="lastName" class="form-label">Last Name:</label>
+          <input type="text" class="form-control" id="lastName">
+        </div>
+        <div class="col-sm-6">
+          <label for="inputEmail4" class="form-label">Email:</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="hairless@lovefurless.com" required>
+        </div>
+        <div class="col-sm-6">
+          <label for="phoneNum" class="form-label">Phone Number:</label>
+          <input type="tel" class="form-control" id="phoneNum" placeholder="123-456-7890">
+        </div>
+        <div>
+          <label for="subject" class="form-label">Subject:</label>
+          <input type="text" class="form-control" id="subject">
+        </div>
+        <div>
+          <label for="message" class="form-label">Message:</label>
+          <textarea class="form-control" id="message" rows="3" cols="10" required></textarea>
+        </div>
+        <div class="col-12">
+          <input class="button" type="submit" value="Submit">
+        </div>
       </div>
-      <div class="message">
-        <label for="message">Message:</label>
-        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message" required></textarea>
-      </div>
-      <input type="submit" value="Submit">
     </form>
 
     <footer class="main-footer">
