@@ -273,6 +273,8 @@ form div textarea {
     font-size: 20px;
   }
 
+
+
   /* MODAL */
   .modal img {
     height: 300px;
@@ -296,5 +298,102 @@ form div textarea {
   .form-wrapper {
     width: 75%;
     margin: 2rem auto;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  /* GLOBAL STYLES */
+  body {
+    font-size: 15px;
+    width: 100%;
+  }
+
+  /* MAIN HEADER AND NAVBAR */
+  .main-header a img {
+    width: 75%;
+  }
+
+  /* INDEX */
+  .featured {
+    margin: 1rem auto;
+  }
+
+  .site-specs {
+    padding: 1rem 2rem;
+  }
+
+  .specs-wrapper {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+  }
+    .specs-wrapper img {
+      width: 100px;
+      padding-right: 0;
+    }
+
+  .flex2 img {
+    padding-left: 0;
+  }
+
+  .contact-hours {
+    background-size: 100%;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    text-align: center;
+  }
+
+  .contact-wrapper {
+    display: block;
+    padding: 1rem;
+  }
+
+  .contact-description {
+    display: none;
+  }
+
+  .op-hours {
+    padding: 0;
+  }
+
+  /* ABOUT */
+  .about, 
+  .about-wrapper {
+    background: none;
+    padding: .5rem;
+  }
+
+  /* HEALTH AND TEMPERMENT */
+  .health {
+    width: 100%;
+  }
+
+  .health-heading {
+    padding-bottom: .5rem;
+  }
+
+  /* CONTACT */
+  form {
+    background: none;
+  }
+
+  .form-wrapper {
+    width: 100%;
+    background: none;
+  }
+
+  form div input,
+  form div textarea {
+    border: 2px solid #000000;
+  }
+
+  .button {
+    width: 100%;
+    padding: .5rem 0;
+  }
+
+  /* FOOTER */
+  .social {
+    padding: .5rem 0;
   }
 }
