@@ -30,7 +30,7 @@ As a hairless dog owner, I want to know about possible health issues my dog may 
 
 ## Future Improvements
 
-Future improvements that I want to make include (1) fixing the overflow/horizontal scrolling issue on the homepage when in small screen sizes, (2) improving responsiveness of the website, (3) adding feature that makes links open in a new tab, and (4) eventually adding a directory that allows people to search for responsible breeders and shelters in their area to find hairless dogs.
+Future improvements that I want to make include (1) improving responsiveness of the website, (2) adding feature that makes links open in a new tab, and (3) eventually adding a directory that allows people to search for responsible breeders and shelters in their area to find hairless dogs.
 
 ## Wireframes
 
