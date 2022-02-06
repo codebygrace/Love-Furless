@@ -26,6 +26,8 @@ As a prospective dog owner with allergies, I want to evaluate different hairless
 
 As a hairless dog breeder, I want to provide information about hairless dogs so that I can educate my clients on proper hairless dog maintenance and care.  
 
+As a hairless dog owner, I want to know about possible health issues my dog may have so that I can get my dog screened for these issues and properly deal with them.
+
 ## Future Improvements
 
 Future improvements that I want to make include (1) fixing the overflow/horizontal scrolling issue on the homepage when in small screen sizes, (2) improving responsiveness of the website, (3) adding feature that makes links open in a new tab, and (4) eventually adding a directory that allows people to search for responsible breeders and shelters in their area to find hairless dogs.
