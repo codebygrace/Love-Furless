@@ -65,6 +65,8 @@ a {
   background: url(../assets/contact-bg.png) no-repeat;
   padding: 2rem;
   margin-bottom: 5rem; 
+  background-size: 100%;
+  background-position: 50% 20%;
 }
 
 .contact-wrapper {
