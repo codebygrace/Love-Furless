@@ -177,6 +177,8 @@ form {
   overflow: hidden;
   width: 50%;
   background-color:rgba(255, 255, 255, .75);
+  border: 2px dashed #202020;
+  border-radius: 10px;
 }
 
 form div input, 
@@ -234,25 +236,11 @@ form div textarea {
   }
 
 /* MEDIA QUERIES */
-@media screen and (max-width: 2560px) {  
-  /* GLOBAL STYLES */
-  body {
-    font-size: 30px;
-  }
-
-  /* INDEX */ 
-  .featured-item {
-    padding-right: 3rem;
-  }
-
+@media screen and (max-width: 1200px) {  
+  /* INDEX */
   .contact-hours {
     background-size: 100%; 
     background-position: 50% 30%;
-  }
-
-  /* ABOUT */
-  .about {
-    background-size: 100%;
   }
 
   /* CONTACT */
@@ -260,20 +248,21 @@ form div textarea {
     background-size: 100%;
     background-position: 50% 50%;
   }
-
-  /* MODAL */
-  .modal-image {
-    height: 100%;
-  }
 }
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 992px) {
   /* GLOBAL STYLES */
   body {
     font-size: 20px;
   }
+  /* INDEX */
+  .featured {
+    overflow: hidden; 
+  }
 
-
+  .contact-hours {
+    background-size: 100%;
+  }
 
   /* MODAL */
   .modal img {
@@ -305,7 +294,6 @@ form div textarea {
   /* GLOBAL STYLES */
   body {
     font-size: 15px;
-    width: 100%;
   }
 
   /* MAIN HEADER AND NAVBAR */
@@ -395,5 +383,9 @@ form div textarea {
   /* FOOTER */
   .social {
     padding: .5rem 0;
+  }
+
+  .social-links {
+    flex-direction: column;
   }
 }
