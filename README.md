@@ -3,11 +3,20 @@
 ## Hosting Link
 This website is hosted [here](https://grace-mills.github.io/Love-Furless/).
 
+## Asset License
+Social Media Icons from [Font Awesome](https://fontawesome.com/license/free)
+
+Images from [Canva](https://www.canva.com/)
+
+Modal Gif from [Tenor](https://tenor.com/view/cat-sad-crying-cat-sad-cat-gif-15407661)
+
 ## Description
 
-My goal in building this project was to create a multi-page website using HTML and CSS. I decided to build a website pertaining to something I love and have a passion for, which is hairless dogs. 
+My goal in building this project was to create a responsive, multi-page website using HTML and CSS. I decided to build a website pertaining to something I love and have a passion for, which is hairless dogs. 
 
-The website offers information about hairless dogs. There are currently only four breeds featured, but I hope to add more in the future. 
+The website offers information about hairless dogs. There are currently only four breeds featured, but I hope to add more in the future. The website also has a functioning contact form. 
+
+Links that have not been set up with a true address return a surprise modal and links that do have a true address open webpages within the same tab. 
 
 ## Technologies Used
 HTML, CSS, and Bootstrap
@@ -19,6 +28,16 @@ As a hairless dog breeder, I want to provide information about hairless dogs so 
 
 ## Future Improvements
 
-Future improvements that I want to make include (1) fixing the overflow/horizontal scrolling issue on the homepage when in small screen sizes, (2) improving responsiveness of the website, and (3) eventually adding a directory that allows people to search for responsible breeders and shelters in their area to find hairless dogs.
+Future improvements that I want to make include (1) fixing the overflow/horizontal scrolling issue on the homepage when in small screen sizes, (2) improving responsiveness of the website, (3) adding feature that makes links open in a new tab, and (4) eventually adding a directory that allows people to search for responsible breeders and shelters in their area to find hairless dogs.
 
 ## Wireframes
+
+![homepage wireframe](/wireframes/lfl-homepage.png)
+
+![about page wireframe](/wireframes/lfl-about.png)
+
+![care page wireframe](/wireframes/lfl-care.png)
+
+![health page wireframe](/wireframes/lfl-health.png)
+
+![contact page wireframe](/wireframes/lfl-contact.png)
