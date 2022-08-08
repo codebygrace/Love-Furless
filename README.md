@@ -1,7 +1,7 @@
 # Love Fur-Less by Grace Mills
 
 ## Hosting Link
-This website is hosted [here](https://grace-mills.github.io/Love-Furless/).
+This website is hosted [here](https://codebygrace.github.io/Love-Furless/).
 
 ## Asset License
 Social Media Icons from [Font Awesome](https://fontawesome.com/license/free)
